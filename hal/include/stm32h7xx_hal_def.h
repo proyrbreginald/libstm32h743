@@ -189,9 +189,9 @@ typedef enum
 /* GNU Compiler
    ------------
   RAM functions are defined using a specific toolchain attribute
-   "__attribute__((section(".RamFunc")))".
+   "__attribute__((section(".ram_fn")))".
 */
-#define __RAM_FUNC __attribute__((section(".RamFunc")))
+#define __RAM_FUNC __attribute__((section(".ram_fn")))
 
 #endif
 
